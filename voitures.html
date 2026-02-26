@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Notre gamme de voitures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Documents à fournir */
+        .cards-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .doc-card {
+            flex: 1;
+            min-width: 250px;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 5px rgb(1, 1, 1);
+        }
+
+        .doc-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .doc-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .doc-card ul li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        /* Formulaire */
+        form {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgb(0, 0, 0);
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        form textarea {
+            resize: vertical;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="images/mb_location_logo.png" alt="MB Location" class="logo">
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="voitures.html">Voitures</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+
+<main>
+    <h2>Notre gamme de voitures</h2>
+
+    <div class="cars-container">
+
+        <!-- VOITURES -->
+        <div class="car-card">
+            <img src="images/fabia.png" alt="Fabia">
+            <h3>Fabia</h3>
+            <p>6000 DA / jour</p>
+            <p>⛽ Essence</p>
+    <p>⚙ Vitesse Manuelle</p>
+    <p>📅 Année 2019</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/picanto.png" alt="Picanto">
+            <h3>Picanto</h3>
+            <p>5500 DA / jour</p>
+            <p>⛽ Essence</p>
+            <p>⚙ Vitesse Manuelle</p>
+            <p>📅 Année: 2019</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/i10grand.png" alt="i10 Grand">
+            <h3>i10 Grand</h3>
+            <p>4000 DA / jour</p>
+            <p>⛽ Essence</p>
+            <p>⚙ Vitesse Manuelle</p>
+            <p>📅 Année: 2019</p>
+
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/swift.png" alt="Swift">
+            <h3>Swift</h3>
+            <p>7000 DA / jour</p>
+            <p>⛽ Essence</p>
+    <p>⚙ Vitesse Automatique</p>
+    <p>📅 Année: 2022</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/golf.png" alt="Golf">
+            <h3>Golf</h3>
+            <p>8500 DA / jour</p>
+            <p>⛽ Diesel</p>
+    <p>⚙ Vitesse Manuelle</p>
+    <p>📅 Année 2018</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/polo.png" alt="Polo">
+            <h3>Polo</h3>
+            <p>6500 DA / jour</p>
+            <p>⛽ Essence</p>
+    <p>⚙ Vitesse Manuelle</p>
+    <p>📅 Année: 2019</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/i20.png" alt="i20">
+            <h3>i20</h3>
+            <p>5500 DA / jour</p>
+            <p>⛽ Diesel</p>
+    <p>⚙ Vitesse Manuelle</p>
+    <p>📅 Année 2020</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+        <div class="car-card">
+            <img src="images/twingo.webp" alt="Twingo">
+            <h3>Twingo</h3>
+            <p>4500 DA / jour</p>
+               <p>⛽ Essence</p>
+    <p>⚙ Vitesse Manuelle</p>
+    <p>📅 Année 2022</p>
+            <a href="reservation.html"><button>Louer</button></a>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    </p>Louez un véhicule maintenant !</p>
+</p>+213 6 73 94 09 84 
+
+    <p>Copyright © 2026 MB Loocation… Location de voitures </p>
+</footer>
+
+</body>
+</html>
